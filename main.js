@@ -112,9 +112,9 @@ function displayCards() {
     } else if (card.name == 'bomb') {
       cardDiv.innerHTML = '💣';
     }
-    cardDiv.style.width = `${400 / row}px`;
-    cardDiv.style.height = `${400 / row}px`;
-    cardDiv.style.lineHeight = `${400 / row}px`;
+    cardDiv.style.width = `${300 / row}px`;
+    cardDiv.style.height = `${300 / row}px`;
+    cardDiv.style.lineHeight = `${320 / row}px`;
     gameField.appendChild(cardDiv);
   });
 }
